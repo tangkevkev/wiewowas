@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ch.ethz.inf.vs.project.forstesa.wiewowas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo4"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo4"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChatListActivity"
+            android:label="@string/title_activity_chatlist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreateChatActivity"
+            android:label="@string/title_activity_create_chat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChatActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

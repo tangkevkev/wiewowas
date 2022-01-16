@@ -1,0 +1,68 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+        android:id="@+id/retrieve_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_search"
+        android:textAlignment="center"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:onClick="onClickSearch"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/customborder"
+        />
+    <LinearLayout
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grouplist"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_create"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/customborder"
+            android:drawableLeft="@drawable/ic_menu_plus"
+
+            android:onClick="onClickStartCreateChatActivity"/>
+        <Button
+            android:id="@+id/buttonRetrieveChats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_retrieve"
+            android:onClick="onClickRetrieveChat"
+            android:drawableLeft="@drawable/ic_menu_refresh"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/customborder"/>
+
+    </LinearLayout>
+
+</LinearLayout>

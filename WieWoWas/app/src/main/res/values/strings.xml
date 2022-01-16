@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">WieWoWas</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_chatlist">Chatroom</string>
+    <string name="title_activity_create_chat">Chatroom creation</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_email">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Strings related to names in the chatlistactivity -->
+    <string name="button_search">Search</string>
+    <string name="button_retrieve">Update List</string>
+    <string name="button_create">Create Chat</string>
+    <string name="textview_tickmark">Tickmark</string>
+    <string name="chat_list_error">Failed to retrieve chat list</string>
+    <string name="no_chats">There are no chats nearby</string>
+
+    <!-- Strings related to names in the createchatactivity -->
+    <string name="textfield_radius">Radius</string>
+    <string name="title_activity_chat">ChatActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="create_chat_error">Failed to create chat.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to location permission-->
+    <string name="permission_disabled">No permission!</string>
+    <string name="give_permission">Please give the permission to use location access.</string>
+    <string name="grant_permission">Give permission</string>
+    <string name="location_enabled">Please make sure location service and internet is enabled</string>
+    <string name="go">START</string>
+    <string name="GPS_not_available">GPS function not available</string>
+
+    <string name="message_list_error">Failed to retrieve messages</string>
+    <string name="no_messages">There are no messages</string>
+
+    <string name="location_update">Update location</string>
+    <string name="location_list_error">Failed to retrieve locations</string>
+    <string name="no_locations">There are no locations available</string>
+</resources>
