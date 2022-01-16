@@ -1,12 +1,4 @@
-The application consists of the Android app, tested on the Nexus 5 and in the emulator, and the server.
+WieWoWas is a location-based chat application. This application was developed as part of the Distributed Systems course at ETH Zurich. 
+Developers: Christian S., Kevin T., Tobias A., Tobias P., Viviane O.
 
-Per default the app connects to our server running on a raspberry pi.
-The HOST and PORT can be changed in the class ch.ethz.inf.vs.project.forstesa.wiewowas.server.ServerConfiguration
-
-When running the server yourself, the port number can be provided as an argument, e.g. in the console.
-The server uses two libraries:
-	com.google.code.gson:gson:2.8.2
-	org.xerial:sqlite-jdbc:3.21.0
-
-We provided them with the project.
-We also included a compiled version of the server in a jar file.
+[Course link](http://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lang=en&lerneinheitId=116327&semkez=2017W&ansicht=LEHRVERANSTALTUNGEN&)
